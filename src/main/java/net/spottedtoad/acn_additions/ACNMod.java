@@ -1,6 +1,7 @@
 package net.spottedtoad.acn_additions;
 
 import net.fabricmc.api.ModInitializer;
+import net.spottedtoad.acn_additions.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,5 +12,6 @@ public class ACNMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItems.registerModItems();
 	}
 }

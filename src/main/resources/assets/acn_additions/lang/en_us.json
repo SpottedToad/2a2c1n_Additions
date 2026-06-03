@@ -1,0 +1,7 @@
+{
+  "item.acn_additions.copper_coin": "Obble",
+  "item.acn_additions.silver_coin": "Shek",
+  "item.acn_additions.gold_coin": "Darsh",
+
+  "itemGroup.acn_additions.additions": "ACN Additions Tab"
+}
