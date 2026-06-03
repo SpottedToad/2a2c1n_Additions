@@ -3,14 +3,14 @@
   "id": "acn_additions",
   "version": "${version}",
 
-  "name": "3A2C1N Origins Additions",
-  "description": "This mod adds additions for 3a2c1n Origins.",
+  "name": "2A2C1N Origins Additions",
+  "description": "This mod adds additions for 2a2c1n Origins.",
   "authors": [
     "SpottedToad"
   ],
   "contact": {
-    "homepage": "https://github.com/SpottedToad/3a2c1n_Origins_Additions",
-    "sources": "https://github.com/SpottedToad/3a2c1n_Origins_Additions"
+    "homepage": "https://github.com/SpottedToad/2a2c1n_Origins_Additions",
+    "sources": "https://github.com/SpottedToad/2a2c1n_Origins_Additions"
   },
 
   "license": "MIT License",
