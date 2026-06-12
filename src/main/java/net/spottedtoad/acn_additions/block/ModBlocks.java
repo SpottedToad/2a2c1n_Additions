@@ -17,12 +17,12 @@ import net.spottedtoad.acn_additions.item.ModItemGroup;
 public class ModBlocks {
 
     public static final Block IRIDIAN_CRYSTAL_BLOCK = registerBlock("iridian_crystal_block",
-            new OreBlock(FabricBlockSettings.of(Material.AMETHYST).strength(4f).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.AMETHYST).strength(1.5f).requiresTool(),
                     UniformIntProvider.create(3,6)), ModItemGroup.ADDITIONS);
     public static final Block METEOR_STONE = registerBlock("meteor_stone",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2.5f).requiresTool()), ModItemGroup.ADDITIONS);
     public static final Block METEOR_BURNT_STONE = registerBlock("meteor_burnt_stone",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2.5f).requiresTool()), ModItemGroup.ADDITIONS);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){
