@@ -8,5 +8,5 @@ import net.spottedtoad.acn_additions.ACNMod;
 
 public class ModItemGroup {
     public static final ItemGroup ADDITIONS = FabricItemGroupBuilder.build(
-            new Identifier(ACNMod.MOD_ID, "additions"), () -> new ItemStack(ModItems.GOLD_COIN));
+            new Identifier(ACNMod.MOD_ID, "additions"), () -> new ItemStack(ModItems.IRIDIANITE));
 }

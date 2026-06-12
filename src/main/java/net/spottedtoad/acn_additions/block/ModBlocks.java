@@ -16,8 +16,8 @@ import net.spottedtoad.acn_additions.item.ModItemGroup;
 
 public class ModBlocks {
 
-    public static final Block METEOR_GEODE = registerBlock("meteor_geode",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
+    public static final Block IRIDIAN_CRYSTAL_BLOCK = registerBlock("iridian_crystal_block",
+            new OreBlock(FabricBlockSettings.of(Material.AMETHYST).strength(4f).requiresTool(),
                     UniformIntProvider.create(3,6)), ModItemGroup.ADDITIONS);
     public static final Block METEOR_STONE = registerBlock("meteor_stone",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
