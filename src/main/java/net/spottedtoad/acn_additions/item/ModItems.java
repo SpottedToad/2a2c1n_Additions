@@ -14,6 +14,10 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.ADDITIONS)));
     public static final Item GOLD_COIN = registerItem("gold_coin",
             new Item(new FabricItemSettings().group(ModItemGroup.ADDITIONS)));
+    public static final Item IRIDIAN_CRYSTAL = registerItem("iridian_crystal",
+            new Item(new FabricItemSettings().group(ModItemGroup.ADDITIONS)));
+    public static final Item IRIDIANITE = registerItem("iridianite",
+            new Item(new FabricItemSettings().group(ModItemGroup.ADDITIONS)));
 
 
 

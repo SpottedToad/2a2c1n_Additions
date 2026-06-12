@@ -2,6 +2,11 @@
   "item.acn_additions.copper_coin": "Obble",
   "item.acn_additions.silver_coin": "Shek",
   "item.acn_additions.gold_coin": "Darsh",
+  "item.acn_additions.iridian_crystal": "Iridian Crystal",
+  "item.acn_additions.iridianite": "Iridianite",
+
+  "block.acn_additions.meteor_stone": "Meteor Stone",
+  "block.acn_additions.meteor_geode": "Space Geode",
 
   "itemGroup.acn_additions.additions": "ACN Additions Tab"
 }
