@@ -17,13 +17,12 @@ import net.spottedtoad.acn_additions.item.ModItemGroup;
 public class ModBlocks {
 
     public static final Block METEOR_GEODE = registerBlock("meteor_geode",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
+                    UniformIntProvider.create(3,6)), ModItemGroup.ADDITIONS);
     public static final Block METEOR_STONE = registerBlock("meteor_stone",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
-                    UniformIntProvider.create(3,6)), ModItemGroup.ADDITIONS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
     public static final Block METEOR_BURNT_STONE = registerBlock("meteor_burnt_stone",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
-                    UniformIntProvider.create(3,6)), ModItemGroup.ADDITIONS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){
