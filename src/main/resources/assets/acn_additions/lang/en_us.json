@@ -5,7 +5,8 @@
   "item.acn_additions.iridian_crystal": "Iridian Crystal",
   "item.acn_additions.iridianite": "Iridianite",
 
-  "block.acn_additions.meteor_stone": "Meteor Stone",
+  "block.acn_additions.meteor_stone": "Meteorite",
+  "block.acn_additions.meteor_burnt_stone": "Burned Meteorite",
   "block.acn_additions.meteor_geode": "Space Geode",
 
   "itemGroup.acn_additions.additions": "ACN Additions Tab"
