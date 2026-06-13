@@ -23,6 +23,9 @@
     ],
     "client": [
       "net.spottedtoad.acn_additions.ACNModClient"
+    ],
+    "fabric-datagen": [
+      "net.spottedtoad.acn_additions.datagen.ModDataGeneration"
     ]
   },
   "mixins": [
