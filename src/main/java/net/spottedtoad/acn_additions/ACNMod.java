@@ -15,5 +15,6 @@ public class ACNMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
 	}
 }

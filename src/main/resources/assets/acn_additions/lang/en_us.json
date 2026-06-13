@@ -9,5 +9,10 @@
   "block.acn_additions.meteor_burnt_stone": "Burned Meteorite",
   "block.acn_additions.iridian_crystal_block": "Block of Iridian Crystal",
 
+  "block.acn_additions.iridianite_helmet": "Iridianite Helmet",
+  "block.acn_additions.iridianite_chestplate": "Iridianite Chestplate",
+  "block.acn_additions.iridianite_leggings": "Iridianite Leggings",
+  "block.acn_additions.iridianite_boots": "Iridianite Boots",
+
   "itemGroup.acn_additions.additions": "ACN Additions Tab"
 }
