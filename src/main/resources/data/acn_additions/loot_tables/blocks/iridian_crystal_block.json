@@ -2,6 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -9,6 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
+              "name": "acn_additions:iridian_crystal_block",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -23,11 +25,11 @@
                     ]
                   }
                 }
-              ],
-              "name": "acn_additions:iridian_crystal_block"
+              ]
             },
             {
               "type": "minecraft:item",
+              "name": "acn_additions:iridian_crystal",
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -46,13 +48,11 @@
                 {
                   "function": "minecraft:explosion_decay"
                 }
-              ],
-              "name": "acn_additions:iridian_crystal"
+              ]
             }
           ]
         }
-      ],
-      "rolls": 1.0
+      ]
     }
   ]
 }
