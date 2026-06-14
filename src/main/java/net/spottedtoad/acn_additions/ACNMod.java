@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.spottedtoad.acn_additions.block.ModBlocks;
 import net.spottedtoad.acn_additions.item.ModItems;
 import net.spottedtoad.acn_additions.item.client.IridianArmorRenderer;
+import net.spottedtoad.acn_additions.world.feature.ModConfiguredFeatures;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
@@ -14,6 +15,8 @@ public class ACNMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModConfiguredFeatures.registerConfiguredFeatures();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
