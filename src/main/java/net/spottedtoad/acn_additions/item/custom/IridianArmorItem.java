@@ -33,7 +33,7 @@ public class IridianArmorItem extends ArmorItem implements IAnimatable {
 
       LivingEntity livingEntity = event.getExtraDataOfType(LivingEntity.class).get(0);
 
-      event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.iridian_armor.idle", ILoopType.EDefaultLoopTypes.LOOP));
+      event.getController().setAnimation(new AnimationBuilder().addAnimation("idle", ILoopType.EDefaultLoopTypes.LOOP));
 
       if (livingEntity instanceof ArmorStandEntity) {
          return PlayState.CONTINUE;
