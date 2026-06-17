@@ -12,7 +12,7 @@ import java.util.function.Supplier;
 public enum ModArmorMaterial implements ArmorMaterial{
             IRIDIANITE("iridianite", 27, new int[]{3, 5, 7, 2}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
                     1.0F, 0.0F, () -> {
-                return Ingredient.ofItems(ModItems.IRIDIANITE);
+                return Ingredient.ofItems(ModItems.IRIDIANITE_INGOT);
             });
 
     private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};
