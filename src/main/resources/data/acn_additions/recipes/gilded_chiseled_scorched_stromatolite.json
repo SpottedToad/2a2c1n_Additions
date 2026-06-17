@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#/#",
+    "###"
+    ],
+  "key": {
+    "#": {
+      "item": "acn_additions:chiseled_scorched_stromatolite"
+      },
+    "/": {
+      "item": "acn_additions:iridianite"
+      }
+    },
+  "result": {
+    "count": 4,
+    "item": "acn_additions:gilded_chiseled_scorched_stromatolite"
+    }
+}

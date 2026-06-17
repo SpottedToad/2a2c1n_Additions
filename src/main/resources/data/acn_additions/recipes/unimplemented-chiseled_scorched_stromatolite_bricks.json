@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "acn_additions:scorched_stromatolite_brick_slabs"
+      }
+    },
+  "pattern": [
+    "#",
+    "#"
+    ],
+  "result": {
+    "item": "acn_additions:chiseled_scorched_stromatolite_bricks"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+    ],
+  "key": {
+    "#": {
+      "item": "acn_additions:scorched_stromatolite"
+      }
+    },
+  "result": {
+    "count": 4,
+    "item": "acn_additions:scorched_stromatolite_bricks"
+  }
+}

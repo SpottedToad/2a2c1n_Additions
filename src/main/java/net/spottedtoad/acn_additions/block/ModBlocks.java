@@ -19,20 +19,42 @@ public class ModBlocks {
     public static final Block IRIDIAN_CRYSTAL_BLOCK = registerBlock("iridian_crystal_block",
             new OreBlock(FabricBlockSettings.of(Material.AMETHYST).strength(3f).requiresTool(),
                     UniformIntProvider.create(3,6)), ModItemGroup.ADDITIONS);
+
     public static final Block STROMATOLITE = registerBlock("stromatolite",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
-    public static final Block SCORCHED_STROMATOLITE = registerBlock("scorched_stromatolite",
+    public static final Block POLISHED_STROMATOLITE = registerBlock("polished_stromatolite",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
+    public static final Block STROMATOLITE_BRICKS = registerBlock("stromatolite_bricks",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
+    public static final Block CRACKED_STROMATOLITE_BRICKS = registerBlock("cracked_stromatolite_bricks",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
+    public static final Block CHISELED_STROMATOLITE = registerBlock("chiseled_stromatolite",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
+    public static final Block GILDED_CHISELED_STROMATOLITE = registerBlock("gilded_chiseled_stromatolite",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
+
+    public static final Block SCORCHED_STROMATOLITE = registerBlock("scorched_stromatolite",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(5f).requiresTool()), ModItemGroup.ADDITIONS);
+    public static final Block POLISHED_SCORCHED_STROMATOLITE = registerBlock("polished_scorched_stromatolite",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(5f).requiresTool()), ModItemGroup.ADDITIONS);
+    public static final Block SCORCHED_STROMATOLITE_BRICKS = registerBlock("scorched_stromatolite_bricks",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(5f).requiresTool()), ModItemGroup.ADDITIONS);
+    public static final Block CRACKED_SCORCHED_STROMATOLITE_BRICKS = registerBlock("cracked_scorched_stromatolite_bricks",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(5f).requiresTool()), ModItemGroup.ADDITIONS);
+    public static final Block CHISELED_SCORCHED_STROMATOLITE = registerBlock("chiseled_scorched_stromatolite",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(5f).requiresTool()), ModItemGroup.ADDITIONS);
+    public static final Block GILDED_CHISELED_SCORCHED_STROMATOLITE = registerBlock("gilded_chiseled_scorched_stromatolite",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(5f).requiresTool()), ModItemGroup.ADDITIONS);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(ACNMod.MOD_ID, name), block);
-    }
+        }
     private static Item registerBlockItem(String name, Block block, ItemGroup tab){
         return Registry.register(Registry.ITEM, new Identifier(ACNMod.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(tab)));
-    }
+        }
     public static void registerModBlocks() {
         ACNMod.LOGGER.debug("Registering ModBlocks for" + ACNMod.MOD_ID);
     }

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "acn_additions:block/cracked_scorched_stromatolite_bricks"
+  }
+}

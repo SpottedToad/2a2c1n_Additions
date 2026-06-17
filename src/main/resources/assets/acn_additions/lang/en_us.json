@@ -1,18 +1,31 @@
 {
+"itemGroup.acn_additions.additions": "ACN Additions Tab",
+
   "item.acn_additions.copper_coin": "Obble",
   "item.acn_additions.silver_coin": "Shek",
   "item.acn_additions.gold_coin": "Darsh",
+
   "item.acn_additions.iridian_crystal": "Iridian Crystal",
   "item.acn_additions.iridianite": "Iridianite",
 
   "block.acn_additions.stromatolite": "Stromatolite",
+  "block.acn_additions.polished_stromatolite": "Polished Stromatolite",
+  "block.acn_additions.stromatolite_bricks": "Stromatolite Bricks",
+  "block.acn_additions.cracked_stromatolite_bricks": "Cracked Stromatolite Bricks",
+  "block.acn_additions.chiseled_stromatolite": "Chiseled Stromatolite",
+  "block.acn_additions.gilded_chiseled_stromatolite": "Gilded Chiseled Stromatolite",
+
   "block.acn_additions.scorched_stromatolite": "Scorched Stromatolite",
+  "block.acn_additions.polished_scorched_stromatolite": "Polished Scorched Stromatolite",
+  "block.acn_additions.scorched_stromatolite_bricks": "Scorched Stromatolite Bricks",
+  "block.acn_additions.cracked_scorched_stromatolite_bricks": "Cracked Scorched Stromatolite Bricks",
+  "block.acn_additions.chiseled_scorched_stromatolite": "Chiseled Scorched Stromatolite",
+  "block.acn_additions.gilded_chiseled_scorched_stromatolite": "Gilded Chiseled Scorched Stromatolite",
+
   "block.acn_additions.iridian_crystal_block": "Block of Iridian Crystal",
 
   "block.acn_additions.iridianite_helmet": "Iridianite Helmet",
   "block.acn_additions.iridianite_chestplate": "Iridianite Chestplate",
   "block.acn_additions.iridianite_leggings": "Iridianite Leggings",
-  "block.acn_additions.iridianite_boots": "Iridianite Boots",
-
-  "itemGroup.acn_additions.additions": "ACN Additions Tab"
+  "block.acn_additions.iridianite_boots": "Iridianite Boots"
 }

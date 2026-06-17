@@ -2,7 +2,19 @@
   "replace": false,
   "values": [
     "acn_additions:iridian_crystal_block",
-    "acn_additions:meteor_burnt_stone",
-    "acn_additions:meteor_stone"
+
+    "acn_additions:stromatolite",
+    "acn_additions:polished_stromatolite",
+    "acn_additions:stromatolite_bricks",
+    "acn_additions:cracked_stromatolite_bricks",
+    "acn_additions:chiseled_stromatolite",
+    "acn_additions:gilded_chiseled_stromatolite",
+
+    "acn_additions:scorched_stromatolite",
+    "acn_additions:polished_scorched_stromatolite",
+    "acn_additions:scorched_stromatolite_bricks",
+    "acn_additions:cracked_scorched_stromatolite_bricks",
+    "acn_additions:chiseled_scorched_stromatolite",
+    "acn_additions:gilded_chiseled_scorched_stromatolite"
   ]
 }
