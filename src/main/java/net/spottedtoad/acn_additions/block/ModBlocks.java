@@ -19,9 +19,9 @@ public class ModBlocks {
     public static final Block IRIDIAN_CRYSTAL_BLOCK = registerBlock("iridian_crystal_block",
             new OreBlock(FabricBlockSettings.of(Material.AMETHYST).strength(3f).requiresTool(),
                     UniformIntProvider.create(3,6)), ModItemGroup.ADDITIONS);
-    public static final Block METEOR_STONE = registerBlock("meteor_stone",
+    public static final Block STROMATOLITE = registerBlock("stromatolite",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
-    public static final Block METEOR_BURNT_STONE = registerBlock("meteor_burnt_stone",
+    public static final Block SCORCHED_STROMATOLITE = registerBlock("scorched_stromatolite",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
 
 
