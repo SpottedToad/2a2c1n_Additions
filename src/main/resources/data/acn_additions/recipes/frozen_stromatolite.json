@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#/#",
+    " # "
+    ],
+  "key": {
+    "#": {
+      "item": "acn_additions:chilled_stromatolite"
+      },
+    "/": {
+      "item": "minecraft:snow_block"
+      }
+    },
+  "result": {
+    "count": 4,
+    "item": "acn_additions:frozen_stromatolite"
+    }
+}

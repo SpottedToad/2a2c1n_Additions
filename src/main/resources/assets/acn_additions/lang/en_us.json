@@ -8,6 +8,13 @@
   "item.acn_additions.iridian_crystal": "Iridian Crystal",
   "item.acn_additions.iridianite_ingot": "Iridianite Ingot",
 
+  "block.acn_additions.iridianite_helmet": "Iridianite Helmet",
+  "block.acn_additions.iridianite_chestplate": "Iridianite Chestplate",
+  "block.acn_additions.iridianite_leggings": "Iridianite Leggings",
+  "block.acn_additions.iridianite_boots": "Iridianite Boots",
+
+  "block.acn_additions.iridian_crystal_block": "Block of Iridian Crystal",
+
   "block.acn_additions.stromatolite": "Stromatolite",
   "block.acn_additions.polished_stromatolite": "Polished Stromatolite",
   "block.acn_additions.stromatolite_bricks": "Stromatolite Bricks",
@@ -23,10 +30,8 @@
   "block.acn_additions.gilded_chiseled_scorched_stromatolite": "Gilded Chiseled Scorched Stromatolite",
 
   "block.acn_additions.stromatolite_geode": "Stromatolite Geode",
-  "block.acn_additions.iridian_crystal_block": "Block of Iridian Crystal",
-
-  "block.acn_additions.iridianite_helmet": "Iridianite Helmet",
-  "block.acn_additions.iridianite_chestplate": "Iridianite Chestplate",
-  "block.acn_additions.iridianite_leggings": "Iridianite Leggings",
-  "block.acn_additions.iridianite_boots": "Iridianite Boots"
+  "block.acn_additions.vulcanized_stromatolite": "Vulcanized Stromatolite",
+  "block.acn_additions.molten_stromatolite": "Molten Stromatolite",
+  "block.acn_additions.chilled_stromatolite": "Chilled Stromatolite",
+  "block.acn_additions.frozen_stromatolite": "Frozen Stromatolite"
 }

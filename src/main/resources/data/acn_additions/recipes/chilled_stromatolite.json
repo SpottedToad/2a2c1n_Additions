@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#/#",
+    " # "
+    ],
+  "key": {
+    "#": {
+      "item": "acn_additions:scorched_stromatolite"
+      },
+    "/": {
+      "item": "minecraft:packed_ice"
+      }
+    },
+  "result": {
+    "count": 4,
+    "item": "acn_additions:chilled_stromatolite"
+    }
+}

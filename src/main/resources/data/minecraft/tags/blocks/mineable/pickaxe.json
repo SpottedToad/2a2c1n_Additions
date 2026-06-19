@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "acn_additions:iridian_crystal_block",
-    "acn_additions:stromatolite_geode",
 
     "acn_additions:stromatolite",
     "acn_additions:polished_stromatolite",
@@ -16,6 +15,12 @@
     "acn_additions:scorched_stromatolite_bricks",
     "acn_additions:cracked_scorched_stromatolite_bricks",
     "acn_additions:chiseled_scorched_stromatolite",
-    "acn_additions:gilded_chiseled_scorched_stromatolite"
+    "acn_additions:gilded_chiseled_scorched_stromatolite",
+
+    "acn_additions:stromatolite_geode",
+    "acn_additions:vulcanized_stromatolite",
+    "acn_additions:molten_stromatolite",
+    "acn_additions:chilled_stromatolite",
+    "acn_additions:frozen_stromatolite"
   ]
 }

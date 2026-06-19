@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#/#",
+    " # "
+    ],
+  "key": {
+    "#": {
+      "item": "acn_additions:vulcanized_stromatolite"
+      },
+    "/": {
+      "item": "minecraft:magma_block"
+      }
+    },
+  "result": {
+    "count": 4,
+    "item": "acn_additions:molten_stromatolite"
+    }
+}

@@ -17,10 +17,10 @@ import net.spottedtoad.acn_additions.item.ModItemGroup;
 public class ModBlocks {
 
     public static final Block IRIDIAN_CRYSTAL_BLOCK = registerBlock("iridian_crystal_block",
-            new Block(FabricBlockSettings.of(Material.AMETHYST).strength(3f).requiresTool()), ModItemGroup.ADDITIONS);
+            new OreBlock(FabricBlockSettings.of(Material.AMETHYST).strength(3f).requiresTool()), ModItemGroup.ADDITIONS);
     public static final Block STROMATOLITE_GEODE = registerBlock("stromatolite_geode",
-            new OreBlock(FabricBlockSettings.of(Material.AMETHYST).strength(3.5f).requiresTool(),
-                    UniformIntProvider.create(3,6)), ModItemGroup.ADDITIONS);
+            new OreBlock(FabricBlockSettings.of(Material.AMETHYST).strength(4f).requiresTool(),
+                    UniformIntProvider.create(2,6)), ModItemGroup.ADDITIONS);
 
     public static final Block STROMATOLITE = registerBlock("stromatolite",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
@@ -47,6 +47,16 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(5f).requiresTool()), ModItemGroup.ADDITIONS);
     public static final Block GILDED_CHISELED_SCORCHED_STROMATOLITE = registerBlock("gilded_chiseled_scorched_stromatolite",
             new Block(FabricBlockSettings.of(Material.STONE).strength(5f).requiresTool()), ModItemGroup.ADDITIONS);
+
+    public static final Block VULCANIZED_STROMATOLITE = registerBlock("vulcanized_stromatolite",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
+    public static final Block MOLTEN_STROMATOLITE = registerBlock("molten_stromatolite",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
+
+    public static final Block CHILLED_STROMATOLITE = registerBlock("chilled_stromatolite",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
+    public static final Block FROZEN_STROMATOLITE = registerBlock("frozen_stromatolite",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){

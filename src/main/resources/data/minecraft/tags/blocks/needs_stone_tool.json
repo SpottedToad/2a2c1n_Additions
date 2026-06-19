@@ -13,6 +13,11 @@
     "acn_additions:scorched_stromatolite_bricks",
     "acn_additions:cracked_scorched_stromatolite_bricks",
     "acn_additions:chiseled_scorched_stromatolite",
-    "acn_additions:gilded_chiseled_scorched_stromatolite"
+    "acn_additions:gilded_chiseled_scorched_stromatolite",
+
+    "acn_additions:vulcanized_stromatolite",
+    "acn_additions:molten_stromatolite",
+    "acn_additions:chilled_stromatolite",
+    "acn_additions:frozen_stromatolite"
   ]
 }
