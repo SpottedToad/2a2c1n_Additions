@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "acn_additions:iridian_crystal_block"
+    "acn_additions:iridian_crystal_block",
+    "acn_additions:stromatolite_geode"
   ]
 }
