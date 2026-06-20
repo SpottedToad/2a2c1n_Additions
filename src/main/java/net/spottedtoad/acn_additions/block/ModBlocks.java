@@ -9,6 +9,7 @@ import net.minecraft.block.OreBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.registry.Registry;
@@ -18,9 +19,9 @@ import net.spottedtoad.acn_additions.item.ModItemGroup;
 public class ModBlocks {
 
     public static final Block IRIDIAN_CRYSTAL_BLOCK = registerBlock("iridian_crystal_block",
-            new OreBlock(FabricBlockSettings.of(Material.AMETHYST).strength(3f).requiresTool()), ModItemGroup.ADDITIONS);
+            new OreBlock(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_CLUSTER).strength(3f).requiresTool()), ModItemGroup.ADDITIONS);
     public static final Block STROMATOLITE_GEODE = registerBlock("stromatolite_geode",
-            new OreBlock(FabricBlockSettings.of(Material.AMETHYST).strength(4f).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.LARGE_AMETHYST_BUD).strength(4f).requiresTool(),
                     UniformIntProvider.create(2,6)), ModItemGroup.ADDITIONS);
 
     public static final Block STROMATOLITE = registerBlock("stromatolite",
@@ -60,11 +61,11 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
 
     public static final Block STRANGE_ICE = registerBlock("strange_ice",
-            new StrangeIce(FabricBlockSettings.of(Material.ICE).strength(4f).requiresTool().ticksRandomly()), ModItemGroup.ADDITIONS);
+            new StrangeIce(FabricBlockSettings.of(Material.ICE).slipperiness(0.98f).strength(1f).requiresTool().ticksRandomly().nonOpaque().sounds(BlockSoundGroup.GLASS)), ModItemGroup.ADDITIONS);
     public static final Block FROZEN_CREATURE_AXOLOTL = registerBlock("frozen_creature_axolotl",
-            new FrozenCreatureAxolotl(FabricBlockSettings.of(Material.ICE).strength(4f).requiresTool().ticksRandomly()), ModItemGroup.ADDITIONS);
+            new FrozenCreatureAxolotl(FabricBlockSettings.of(Material.ICE).slipperiness(0.98f).strength(1f).requiresTool().ticksRandomly().nonOpaque().sounds(BlockSoundGroup.GLASS)), ModItemGroup.ADDITIONS);
     public static final Block FROZEN_CREATURE_FROG = registerBlock("frozen_creature_frog",
-            new FrozenCreatureFrog(FabricBlockSettings.of(Material.ICE).strength(4f).requiresTool().ticksRandomly()), ModItemGroup.ADDITIONS);
+            new FrozenCreatureFrog(FabricBlockSettings.of(Material.ICE).slipperiness(0.98f).strength(1f).requiresTool().ticksRandomly().nonOpaque().sounds(BlockSoundGroup.GLASS)), ModItemGroup.ADDITIONS);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){
