@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "acn_additions:block/frozen_creature_frog_top",
+    "side": "acn_additions:block/frozen_creature_frog_side"
+  }
+}

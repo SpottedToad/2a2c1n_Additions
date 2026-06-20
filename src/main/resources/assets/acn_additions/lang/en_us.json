@@ -33,5 +33,10 @@
   "block.acn_additions.vulcanized_stromatolite": "Vulcanized Stromatolite",
   "block.acn_additions.molten_stromatolite": "Molten Stromatolite",
   "block.acn_additions.chilled_stromatolite": "Chilled Stromatolite",
-  "block.acn_additions.frozen_stromatolite": "Frozen Stromatolite"
+  "block.acn_additions.frozen_stromatolite": "Frozen Stromatolite",
+
+  "block.acn_additions.strange_ice": "Strange Ice",
+  "block.acn_additions.frozen_creature_axolotl": "Strange Frozen Creature",
+  "block.acn_additions.frozen_creature_frog": "Strange Frozen Creature"
+
 }

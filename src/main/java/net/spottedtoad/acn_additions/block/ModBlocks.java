@@ -3,6 +3,7 @@ package net.spottedtoad.acn_additions.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.IceBlock;
 import net.minecraft.block.Material;
 import net.minecraft.block.OreBlock;
 import net.minecraft.item.BlockItem;
@@ -57,6 +58,13 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
     public static final Block FROZEN_STROMATOLITE = registerBlock("frozen_stromatolite",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ADDITIONS);
+
+    public static final Block STRANGE_ICE = registerBlock("strange_ice",
+            new StrangeIce(FabricBlockSettings.of(Material.ICE).strength(4f).requiresTool().ticksRandomly()), ModItemGroup.ADDITIONS);
+    public static final Block FROZEN_CREATURE_AXOLOTL = registerBlock("frozen_creature_axolotl",
+            new FrozenCreatureAxolotl(FabricBlockSettings.of(Material.ICE).strength(4f).requiresTool().ticksRandomly()), ModItemGroup.ADDITIONS);
+    public static final Block FROZEN_CREATURE_FROG = registerBlock("frozen_creature_frog",
+            new FrozenCreatureFrog(FabricBlockSettings.of(Material.ICE).strength(4f).requiresTool().ticksRandomly()), ModItemGroup.ADDITIONS);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){

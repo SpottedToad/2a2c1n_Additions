@@ -21,6 +21,10 @@
     "acn_additions:vulcanized_stromatolite",
     "acn_additions:molten_stromatolite",
     "acn_additions:chilled_stromatolite",
-    "acn_additions:frozen_stromatolite"
+    "acn_additions:frozen_stromatolite",
+
+    "acn_additions:strange_ice",
+    "acn_additions:frozen_creature_axolotl",
+    "acn_additions:frozen_creature_frog"
   ]
 }
