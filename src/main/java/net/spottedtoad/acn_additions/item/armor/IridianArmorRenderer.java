@@ -1,25 +1,26 @@
 package net.spottedtoad.acn_additions.item.armor;
 
-import net.spottedtoad.acn_additions.item.custom.IridianArmorItem;
-import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
+import mod.azure.azurelib.render.armor.AzArmorRenderer;
+import mod.azure.azurelib.render.armor.AzArmorRendererConfig;
+import net.minecraft.util.Identifier;
+import net.spottedtoad.acn_additions.ACNMod;
 
-public class IridianArmorRenderer extends GeoArmorRenderer<IridianArmorItem> {
+public class IridianArmorRenderer extends AzArmorRenderer {
+    private static final Identifier MODEL = new Identifier(
+            ACNMod.MOD_ID,
+            "geo/iridian_armor.geo.json"
+    );
+
+    private static final Identifier TEXTURE = new Identifier(
+            ACNMod.MOD_ID,
+            "textures/armor/iridian_armor.png"
+    );
+
     public IridianArmorRenderer() {
-        super(new IridianArmorModel());
-
-        // These values are what each bone name is in blockbench. So if your head bone
-        // is named "bone545", make sure to do this.headBone = "bone545";
-        // The default values are the ones that come with the default armor template in
-        // the geckolib blockbench plugin.
-        this.headBone = "armorHead";
-        this.bodyBone = "armorBody";
-        this.rightArmBone = "armorRightArm";
-        this.leftArmBone = "armorLeftArm";
-        this.rightLegBone = "armorRightLeg";
-        this.leftLegBone = "armorLeftLeg";
-        this.rightBootBone = "armorRightBoot";
-        this.leftBootBone = "armorLeftBoot";
+        super(AzArmorRendererConfig.builder(MODEL, TEXTURE)
+                .setBoneProvider(new IridianArmorBoneProvider())
+                .build()
+        );
     }
 
 }
-
