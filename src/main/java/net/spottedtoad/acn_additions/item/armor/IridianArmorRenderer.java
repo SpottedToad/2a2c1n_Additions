@@ -1,17 +1,6 @@
-package net.spottedtoad.acn_additions.item.client;
+package net.spottedtoad.acn_additions.item.armor;
 
-import net.minecraft.client.model.Model;
-import net.minecraft.client.render.OverlayTexture;
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.VertexConsumer;
-import net.minecraft.client.render.VertexConsumerProvider;
-import net.minecraft.client.render.item.ItemRenderer;
-import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.Identifier;
 import net.spottedtoad.acn_additions.item.custom.IridianArmorItem;
-import software.bernie.example.client.model.armor.GeckoArmorModel;
-import software.bernie.example.item.GeckoArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class IridianArmorRenderer extends GeoArmorRenderer<IridianArmorItem> {

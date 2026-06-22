@@ -1,9 +1,8 @@
-package net.spottedtoad.acn_additions.item.client;
+package net.spottedtoad.acn_additions.item.armor;
 
 import net.minecraft.util.Identifier;
 import net.spottedtoad.acn_additions.ACNMod;
 import net.spottedtoad.acn_additions.item.custom.IridianArmorItem;
-import software.bernie.example.client.EntityResources;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 
 public class IridianArmorModel extends AnimatedGeoModel<IridianArmorItem> {

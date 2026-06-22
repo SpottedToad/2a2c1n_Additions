@@ -8,6 +8,7 @@ group = project.maven_group
 
 repositories {
 	maven{url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven'}
+	maven{url 'https://dl.cloudsmith.io/public/azuredoom-mods/azurelib/maven/'}
 	// Add repositories to retrieve artifacts from in here.
 	// You should only use this when depending on other mods because
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
@@ -25,6 +26,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	modImplementation('software.bernie.geckolib:geckolib-fabric-1.19:3.1.40')
+	modImplementation 'mod.azure.azurelib:azurelib-fabric-1.19.2:1.0.16'
 	// Uncomment the following line to enable the deprecated Fabric API modules. 
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 	//modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
