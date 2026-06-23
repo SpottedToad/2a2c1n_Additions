@@ -10,8 +10,8 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements ArmorMaterial{
-            IRIDIANITE("iridianite", 27, new int[]{3, 5, 7, 2}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
-                    1.0F, 0.0F, () -> {
+            IRIDIANITE("iridianite", 30, new int[]{2, 4, 6, 2}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
+                    1.5F, 0.0F, () -> {
                 return Ingredient.ofItems(ModItems.IRIDIANITE_INGOT);
             });
 
