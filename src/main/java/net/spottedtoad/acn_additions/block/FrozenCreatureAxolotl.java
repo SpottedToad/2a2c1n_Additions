@@ -4,11 +4,14 @@ import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.passive.AxolotlEntity;
+import net.minecraft.entity.passive.FrogEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.LightType;
 import net.minecraft.world.World;
+import net.spottedtoad.acn_additions.entity.custom.SpaceAxolotlTracker;
+import net.spottedtoad.acn_additions.registry.NewFrogVariant;
 
 public class FrozenCreatureAxolotl
 extends TransparentBlock {
@@ -34,10 +37,15 @@ extends TransparentBlock {
     }
 
     private void spawnCreature(ServerWorld world, BlockPos pos) {
-        AxolotlEntity axolotlEntity = EntityType.AXOLOTL.create(world);
-        axolotlEntity.refreshPositionAndAngles((double)pos.getX() + 0.5, pos.getY(), (double)pos.getZ() + 0.5, 0.0f, 0.0f);
-        world.spawnEntity(axolotlEntity);
-        axolotlEntity.playSpawnEffects();
+        AxolotlEntity axolotl = EntityType.AXOLOTL.create(world);
+        if (axolotl != null) {
+            axolotl.setBaby(true);
+            ((SpaceAxolotlTracker) axolotl).setSpaceVariant(1);
+            axolotl.setVariant(AxolotlEntity.Variant.LUCY);
+        }
+        axolotl.refreshPositionAndAngles((double)pos.getX() + 0.5, pos.getY(), (double)pos.getZ() + 0.5, 0.0f, 0.0f);
+        world.spawnEntity(axolotl);
+        axolotl.playSpawnEffects();
     }
 
     @Override

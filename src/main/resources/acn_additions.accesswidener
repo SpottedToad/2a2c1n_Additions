@@ -1,0 +1,10 @@
+accessWidener	v1	named
+
+# Open up Axolotl Entity visibility constraints
+accessible	method	net/minecraft/entity/passive/AxolotlEntity	setVariant	(Lnet/minecraft/entity/passive/AxolotlEntity$Variant;)V
+accessible	field	net/minecraft/entity/passive/AxolotlEntity	VARIANT	Lnet/minecraft/entity/data/TrackedData;
+
+# Open up the hidden breeding data context wrapper and methods
+accessible	class	net/minecraft/entity/passive/AxolotlEntity$AxolotlData
+accessible	method	net/minecraft/entity/passive/AxolotlEntity$AxolotlData	getVariant	()Lnet/minecraft/entity/passive/AxolotlEntity$Variant;
+accessible	method	net/minecraft/entity/passive/AxolotlEntity$AxolotlData	getSecondaryVariant	()Lnet/minecraft/entity/passive/AxolotlEntity$Variant;

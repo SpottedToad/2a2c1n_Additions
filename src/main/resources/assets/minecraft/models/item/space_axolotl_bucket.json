@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/axolotl_bucket"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "acn_additions:space_variant": 1.0
+      },
+      "model": "acn_additions:item/space_axolotl_bucket"
+    }
+  ]
+}

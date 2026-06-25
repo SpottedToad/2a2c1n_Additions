@@ -4,6 +4,8 @@
   "package": "net.spottedtoad.acn_additions.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "AxolotlEntityMixin",
+    "AxolotlEntityRendererMixin"
   ],
   "client": [
     "ExampleMixin"

@@ -1,7 +1,10 @@
 package net.spottedtoad.acn_additions.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.fluid.Fluids;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.spottedtoad.acn_additions.ACNMod;
@@ -32,9 +35,6 @@ public class ModItems {
     public static final Item IRIDIANITE_BOOTS = registerItem("iridianite_boots",
             new IridianArmorItem(ModArmorMaterial.IRIDIANITE, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.ADDITIONS)));
-
-
-
 
 
     private static Item registerItem(String name, Item item) {

@@ -20,5 +20,6 @@ public class ACNMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		NewFrogVariant.init();
+
 	}
 }
