@@ -21,7 +21,7 @@ public class AxolotlEntityRendererMixin {
 
     @Inject(method = "getTexture(Lnet/minecraft/entity/passive/AxolotlEntity;)Lnet/minecraft/util/Identifier;", at = @At("HEAD"), cancellable = true)
     public void getCustomVariantTexture(AxolotlEntity entity, CallbackInfoReturnable<Identifier> cir) {
-        if (entity instanceof SpaceAxolotlTracker tracker) {
+        if (entity instanceof SpaceAxolotlTracker tracker && tracker.getSpaceVariant() == 1) {
             if (entity.isBaby()) {
                 cir.setReturnValue(BABY_SPACE_TEXTURE);
             } else {
